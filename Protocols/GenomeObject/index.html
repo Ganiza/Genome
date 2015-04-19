@@ -265,21 +265,49 @@ function disclosure_triangle(elt) {
 <hr class="afterClassOrHeaderInfo"><br><a name="HeaderDoc_methods"></a>
 <h2 class="h2tight">Methods</h2>
 <dl>
+<dt><tt><a href="index.html#//apple_ref/occ/intfcm/GenomeObject/defaultPropertyValues" target="_top">+defaultPropertyValues</a></tt></dt>
+<dd></dd>
 <dt><tt><a href="index.html#//apple_ref/occ/intfcm/GenomeObject/mapping" target="_top">+mapping</a></tt></dt>
 <dd></dd>
+<dt><tt><a href="index.html#//apple_ref/occ/intfcm/GenomeObject/mappingForOperation:" target="_top">+mappingForOperation:</a></tt></dt>
+<dd></dd>
 </dl>
+<hr class="betweenAPIEntries"><!-- headerDoc=intfcm;  uid=//apple_ref/occ/intfcm/GenomeObject/defaultPropertyValues;   name=GenomeObject::defaultPropertyValues -->
+<a name="//apple_ref/occ/intfcm/GenomeObject/defaultPropertyValues"></a>
+<h3><a name="defaultPropertyValues">defaultPropertyValues</a></h3>
+<hr class="afterName"><div class='declaration_indent'>
+<pre><tt>@optional</tt>
+<br>+ (<!-- a logicalPath="//apple_ref/occ/cl/NSDictionary //apple_ref/occ/tdef/NSDictionary //apple_ref/occ/tag/NSDictionary //apple_ref/occ/struct/NSDictionary //apple_ref/occ/intf/NSDictionary //apple_ref/doc/anysymbol/NSDictionary" machineGenerated="true" --><span class="type">NSDictionary</span><!-- /a --> <span class="type">*</span>)<!-- a logicalPath="//apple_ref/occ/econst/defaultPropertyValues //apple_ref/occ/data/GenomeObject/defaultPropertyValues //apple_ref/occ/data/defaultPropertyValues //apple_ref/occ/clconst/GenomeObject/defaultPropertyValues " machineGenerated="true" --><span class="var">defaultPropertyValues</span><!-- /a -->; </pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Return Value</font></h5><p><!-- begin return value --><p>the default value for a given property name.  ie: ['propertyName' : 'default value'] -- Supports key paths :)
+</p>
+<p><b>WARNING:</b><br /></p><div class='warning_indent'><p>Do not use @ syntax to define a class in the default values section!
+</p></div>
+<!-- end return value --></p><h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/occ/intfcm/GenomeObject/defaultPropertyValues;name=start --><p>If nil or null is received from Json for a given key, default values will be consulted before skipping setting
+</p>
+<!-- headerDoc=discussion;uid=//apple_ref/occ/intfcm/GenomeObject/defaultPropertyValues;name=end --><!-- end discussion -->
 <hr class="betweenAPIEntries"><!-- headerDoc=intfcm;  uid=//apple_ref/occ/intfcm/GenomeObject/mapping;   name=GenomeObject::mapping -->
 <a name="//apple_ref/occ/intfcm/GenomeObject/mapping"></a>
 <h3><a name="mapping">mapping</a></h3>
 <hr class="afterName"><div class='declaration_indent'>
 <pre><tt>@optional</tt>
-<br>@optional + (<!-- a logicalPath="//apple_ref/occ/cl/NSDictionary //apple_ref/occ/tdef/NSDictionary //apple_ref/occ/tag/NSDictionary //apple_ref/occ/struct/NSDictionary //apple_ref/occ/intf/NSDictionary //apple_ref/doc/anysymbol/NSDictionary" machineGenerated="true" --><span class="type">NSDictionary</span><!-- /a --> <span class="type">*</span>)<!-- a logicalPath="//apple_ref/occ/econst/mapping //apple_ref/occ/data/GenomeObject/mapping //apple_ref/occ/data/mapping //apple_ref/occ/clconst/GenomeObject/mapping " machineGenerated="true" --><span class="var">mapping</span><!-- /a -->;    @optional + (<!-- a logicalPath="//apple_ref/occ/cl/NSDictionary //apple_ref/occ/tdef/NSDictionary //apple_ref/occ/tag/NSDictionary //apple_ref/occ/struct/NSDictionary //apple_ref/occ/intf/NSDictionary //apple_ref/doc/anysymbol/NSDictionary" machineGenerated="true" --><span class="type">NSDictionary</span><!-- /a --> <span class="type">*</span>)
-        <!-- a logicalPath="//apple_ref/occ/instm/GenomeObject/mappingForOperation //apple_ref/occ/clm/GenomeObject/mappingForOperation //apple_ref/occ/intfcm/GenomeObject/mappingForOperation //apple_ref/occ/intfm/GenomeObject/mappingForOperation //apple_ref/occ/func/mappingForOperation //apple_ref/occ/ftmplt/GenomeObject/mappingForOperation //apple_ref/occ/defn/mappingForOperation //apple_ref/occ/macro/mappingForOperation //apple_ref/doc/anysymbol/mappingForOperation" machineGenerated="true" --><span class="function">mappingForOperation</span><!-- /a -->:(<!-- a logicalPath="//apple_ref/occ/cl/GenomeOperation //apple_ref/occ/tdef/GenomeOperation //apple_ref/occ/tag/GenomeOperation //apple_ref/occ/struct/GenomeOperation //apple_ref/occ/intf/GenomeOperation //apple_ref/doc/anysymbol/GenomeOperation" machineGenerated="true" --><span class="type">GenomeOperation</span><!-- /a -->)<!-- a logicalPath="//apple_ref/occ/econst/operation //apple_ref/occ/data/GenomeObject/operation //apple_ref/occ/data/operation //apple_ref/occ/clconst/GenomeObject/operation " machineGenerated="true" --><span class="var">operation</span><!-- /a -->;    @optional + (<!-- a logicalPath="//apple_ref/occ/cl/NSDictionary //apple_ref/occ/tdef/NSDictionary //apple_ref/occ/tag/NSDictionary //apple_ref/occ/struct/NSDictionary //apple_ref/occ/intf/NSDictionary //apple_ref/doc/anysymbol/NSDictionary" machineGenerated="true" --><span class="type">NSDictionary</span><!-- /a --> <span class="type">*</span>)<!-- a logicalPath="//apple_ref/occ/econst/defaultPropertyValues //apple_ref/occ/data/GenomeObject/defaultPropertyValues //apple_ref/occ/data/defaultPropertyValues //apple_ref/occ/clconst/GenomeObject/defaultPropertyValues " machineGenerated="true" --><span class="var">defaultPropertyValues</span><!-- /a -->;   @@end</pre>
+<br>+ (<!-- a logicalPath="//apple_ref/occ/cl/NSDictionary //apple_ref/occ/tdef/NSDictionary //apple_ref/occ/tag/NSDictionary //apple_ref/occ/struct/NSDictionary //apple_ref/occ/intf/NSDictionary //apple_ref/doc/anysymbol/NSDictionary" machineGenerated="true" --><span class="type">NSDictionary</span><!-- /a --> <span class="type">*</span>)<!-- a logicalPath="//apple_ref/occ/econst/mapping //apple_ref/occ/data/GenomeObject/mapping //apple_ref/occ/data/mapping //apple_ref/occ/clconst/GenomeObject/mapping " machineGenerated="true" --><span class="var">mapping</span><!-- /a -->; </pre>
 </div>
 <h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Return Value</font></h5><p><!-- begin return value --><p>the mapping defined by the user
 
 <!-- end return value --></p><h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
 <!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/occ/intfcm/GenomeObject/mapping;name=start --><p>*<!-- headerDoc=discussion;uid=//apple_ref/occ/intfcm/GenomeObject/mapping;name=end --><!-- end discussion -->
+<hr class="betweenAPIEntries"><!-- headerDoc=intfcm;  uid=//apple_ref/occ/intfcm/GenomeObject/mappingForOperation:;   name=GenomeObject::mappingForOperation: -->
+<a name="//apple_ref/occ/intfcm/GenomeObject/mappingForOperation:"></a>
+<h3><a name="mappingForOperation:">mappingForOperation:</a></h3>
+<hr class="afterName"><div class='declaration_indent'>
+<pre><tt>@optional</tt>
+<br>+ (<!-- a logicalPath="//apple_ref/occ/cl/NSDictionary //apple_ref/occ/tdef/NSDictionary //apple_ref/occ/tag/NSDictionary //apple_ref/occ/struct/NSDictionary //apple_ref/occ/intf/NSDictionary //apple_ref/doc/anysymbol/NSDictionary" machineGenerated="true" --><span class="type">NSDictionary</span><!-- /a --> <span class="type">*</span>)<!-- a logicalPath="//apple_ref/occ/instm/GenomeObject/mappingForOperation //apple_ref/occ/clm/GenomeObject/mappingForOperation //apple_ref/occ/intfcm/GenomeObject/mappingForOperation //apple_ref/occ/intfm/GenomeObject/mappingForOperation //apple_ref/occ/func/mappingForOperation //apple_ref/occ/ftmplt/GenomeObject/mappingForOperation //apple_ref/occ/defn/mappingForOperation //apple_ref/occ/macro/mappingForOperation //apple_ref/doc/anysymbol/mappingForOperation" machineGenerated="true" --><span class="function">mappingForOperation</span><!-- /a -->:(<!-- a logicalPath="//apple_ref/occ/cl/GenomeOperation //apple_ref/occ/tdef/GenomeOperation //apple_ref/occ/tag/GenomeOperation //apple_ref/occ/struct/GenomeOperation //apple_ref/occ/intf/GenomeOperation //apple_ref/doc/anysymbol/GenomeOperation" machineGenerated="true" --><span class="type">GenomeOperation</span><!-- /a -->)<!-- a logicalPath="//apple_ref/occ/econst/operation //apple_ref/occ/data/GenomeObject/operation //apple_ref/occ/data/operation //apple_ref/occ/clconst/GenomeObject/operation " machineGenerated="true" --><span class="var">operation</span><!-- /a -->; </pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/occ/intfcm/GenomeObject/mappingForOperation:;name=start --><p>Override this if you need a specified mapping for the operation from and to json
+<!-- headerDoc=discussion;uid=//apple_ref/occ/intfcm/GenomeObject/mappingForOperation:;name=end --><!-- end discussion -->
 <p class="gapBeforeFooter">&nbsp;</p><hr class="afterFooter"><div class="hd_copyright_and_timestamp">
 <p class="hd_timestamp">Last Updated: Sunday, April 19, 2015
 </p></div>
